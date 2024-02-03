@@ -3448,13 +3448,13 @@ input, select, textarea {
 	}
 
 	#logo img {
-		max-height: 5em; /* Defina a altura máxima desejada para o logotipo */
-		width: auto; /* Garante que a largura se ajuste automaticamente mantendo a proporção */
+		max-height: 5em; 
+		width: auto; 
 	}
 	
-	/* Adicionando estilo específico para o logotipo quando a página está na versão "landing" */
+	
 	body.landing #logo img {
-		max-height: 3em; /* Ajuste a altura máxima para a versão "landing" se desejar */
+		max-height: 3em; 
 	}
 
 
@@ -3808,6 +3808,8 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
+			
+
 		/* Goto Next */
 
 			.goto-next:before {
@@ -3892,6 +3894,8 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
+				align-items: center; 
+    			justify-content: center; 
 				height: 44px;
 				left: 0;
 				position: fixed;
@@ -3901,6 +3905,12 @@ input, select, textarea {
 				background: #272833;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
+
+			#titleBar img {
+				max-height: 40px; 
+				width: auto; 
+			}
+			
 
 				#titleBar .title {
 					color: #ffffff;
@@ -3941,7 +3951,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
+						background: #38b284;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
